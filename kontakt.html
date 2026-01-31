@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontaktieren Sie Musterbetrieb - Wir sind für Sie da! Telefon, E-Mail oder Kontaktformular. Kostenlose Beratung und schnelle Reaktionszeiten.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Kontakt | Musterbetrieb">
+  <meta property="og:description" content="Kontaktieren Sie uns für eine kostenlose Beratung. Wir sind per Telefon, E-Mail oder Kontaktformular erreichbar.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.musterbetrieb.de/kontakt.html">
+  <meta property="og:image" content="https://www.musterbetrieb.de/assets/img/og-image.jpg">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <title>Kontakt | Musterbetrieb - Jetzt anfragen</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="logo">
+          <span class="logo__icon">M</span>
+          <span>Musterbetrieb</span>
+        </a>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav class="nav" role="navigation" aria-label="Hauptnavigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Start</a></li>
+            <li><a href="leistungen.html" class="nav__link">Leistungen</a></li>
+            <li><a href="ueber-uns.html" class="nav__link">Über uns</a></li>
+            <li><a href="galerie.html" class="nav__link">Galerie</a></li>
+            <li><a href="kontakt.html" class="nav__link nav__link--active">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title animate">Kontakt</h1>
+        <p class="page-hero__text animate animate--delay-1">
+          Wir freuen uns auf Ihre Anfrage! Kontaktieren Sie uns telefonisch, per E-Mail oder über das Kontaktformular.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info animate animate--left">
+            <h2>So erreichen Sie uns</h2>
+            <p style="margin-top: var(--space-4); color: var(--color-text-light);">
+              Haben Sie Fragen oder möchten ein Angebot? Wir sind gerne für Sie da und melden uns schnellstmöglich zurück.
+            </p>
+
+            <div style="margin-top: var(--space-8);">
+              <div class="contact-item">
+                <div class="contact-item__icon">📍</div>
+                <div>
+                  <div class="contact-item__label">Adresse</div>
+                  <div class="contact-item__value">Musterstraße 123<br>12345 Musterstadt</div>
+                </div>
+              </div>
+
+              <div class="contact-item" style="margin-top: var(--space-6);">
+                <div class="contact-item__icon">📞</div>
+                <div>
+                  <div class="contact-item__label">Telefon</div>
+                  <div class="contact-item__value"><a href="tel:+4912345678900">+49 123 456 789 00</a></div>
+                </div>
+              </div>
+
+              <div class="contact-item" style="margin-top: var(--space-6);">
+                <div class="contact-item__icon">✉️</div>
+                <div>
+                  <div class="contact-item__label">E-Mail</div>
+                  <div class="contact-item__value"><a href="mailto:info@musterbetrieb.de">info@musterbetrieb.de</a></div>
+                </div>
+              </div>
+
+              <div class="contact-item" style="margin-top: var(--space-6);">
+                <div class="contact-item__icon">🕐</div>
+                <div>
+                  <div class="contact-item__label">Öffnungszeiten</div>
+                  <div class="contact-item__value">
+                    Mo - Fr: 08:00 - 17:00 Uhr<br>
+                    Sa: Nach Vereinbarung<br>
+                    <strong style="color: var(--color-primary);">Notdienst: 24/7</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="animate animate--right">
+            <h2>Nachricht senden</h2>
+            <p style="margin-top: var(--space-4); margin-bottom: var(--space-6); color: var(--color-text-light);">
+              Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.
+            </p>
+
+            <form id="contact-form" class="form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label form-label--required">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Ihr vollständiger Name" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label form-label--required">E-Mail</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="ihre.email@beispiel.de" required autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Telefon (optional)</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+49 123 456 789" autocomplete="tel">
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label form-label--required">Betreff</label>
+                <select id="subject" name="subject" class="form-input" required>
+                  <option value="">Bitte wählen...</option>
+                  <option value="anfrage">Allgemeine Anfrage</option>
+                  <option value="angebot">Angebot anfordern</option>
+                  <option value="beratung">Beratungstermin</option>
+                  <option value="service">Service & Wartung</option>
+                  <option value="notdienst">Notdienst</option>
+                  <option value="sonstiges">Sonstiges</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label form-label--required">Ihre Nachricht</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Beschreiben Sie Ihr Anliegen..." required></textarea>
+              </div>
+
+              <div class="form-group">
+                <div class="form-checkbox">
+                  <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent">
+                    Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu.
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg btn--full">Nachricht senden</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="map-container animate">
+          <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: var(--space-4);">
+            <span style="font-size: var(--font-size-lg);">📍</span>
+            <span>Google Maps Einbettung</span>
+            <span style="font-size: var(--font-size-sm);">Ersetzen Sie diesen Platzhalter mit Ihrem Google Maps iframe</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="grid grid--3">
+          <div class="service-card animate text-center">
+            <div class="service-card__icon">📞</div>
+            <h3 class="service-card__title">Anrufen</h3>
+            <p class="service-card__text">Direkt mit uns sprechen?<br>Rufen Sie an!</p>
+            <a href="tel:+4912345678900" class="btn btn--primary" style="margin-top: var(--space-4);">+49 123 456 789 00</a>
+          </div>
+
+          <div class="service-card animate animate--delay-1 text-center">
+            <div class="service-card__icon">✉️</div>
+            <h3 class="service-card__title">E-Mail</h3>
+            <p class="service-card__text">Schreiben Sie uns eine E-Mail.<br>Wir antworten schnell.</p>
+            <a href="mailto:info@musterbetrieb.de" class="btn btn--primary" style="margin-top: var(--space-4);">E-Mail senden</a>
+          </div>
+
+          <div class="service-card animate animate--delay-2 text-center">
+            <div class="service-card__icon">🚨</div>
+            <h3 class="service-card__title">Notdienst</h3>
+            <p class="service-card__text">Notfall außerhalb der<br>Geschäftszeiten?</p>
+            <a href="tel:+4912345678900" class="btn btn--primary" style="margin-top: var(--space-4);">Notdienst 24/7</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <span class="logo__icon">M</span>
+            <span>Musterbetrieb</span>
+          </a>
+          <p class="footer__description">Ihr zuverlässiger Partner für professionelle Dienstleistungen in der Region.</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Navigation</h3>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Start</a></li>
+            <li><a href="leistungen.html" class="footer__link">Leistungen</a></li>
+            <li><a href="ueber-uns.html" class="footer__link">Über uns</a></li>
+            <li><a href="galerie.html" class="footer__link">Galerie</a></li>
+            <li><a href="kontakt.html" class="footer__link">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Leistungen</h3>
+          <ul class="footer__links">
+            <li><a href="leistungen.html#beratung" class="footer__link">Beratung & Planung</a></li>
+            <li><a href="leistungen.html#umsetzung" class="footer__link">Umsetzung</a></li>
+            <li><a href="leistungen.html#service" class="footer__link">Service & Wartung</a></li>
+            <li><a href="leistungen.html#notdienst" class="footer__link">Notdienst</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Kontakt</h3>
+          <div class="footer__contact-item"><span>📍</span><span>Musterstraße 123<br>12345 Musterstadt</span></div>
+          <div class="footer__contact-item"><span>📞</span><a href="tel:+4912345678900">+49 123 456 789 00</a></div>
+          <div class="footer__contact-item"><span>✉️</span><a href="mailto:info@musterbetrieb.de">info@musterbetrieb.de</a></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 Musterbetrieb. Alle Rechte vorbehalten.</p>
+        <div class="footer__legal">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galerie - Entdecken Sie unsere abgeschlossenen Projekte und Referenzen. Musterbetrieb zeigt Qualitätsarbeit in Bildern.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Galerie | Musterbetrieb">
+  <meta property="og:description" content="Entdecken Sie unsere abgeschlossenen Projekte und Referenzen in Bildern.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.musterbetrieb.de/galerie.html">
+  <meta property="og:image" content="https://www.musterbetrieb.de/assets/img/og-image.jpg">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <title>Galerie | Musterbetrieb - Projekte & Referenzen</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="logo">
+          <span class="logo__icon">M</span>
+          <span>Musterbetrieb</span>
+        </a>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav class="nav" role="navigation" aria-label="Hauptnavigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Start</a></li>
+            <li><a href="leistungen.html" class="nav__link">Leistungen</a></li>
+            <li><a href="ueber-uns.html" class="nav__link">Über uns</a></li>
+            <li><a href="galerie.html" class="nav__link nav__link--active">Galerie</a></li>
+            <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title animate">Unsere Projekte</h1>
+        <p class="page-hero__text animate animate--delay-1">
+          Überzeugen Sie sich von unserer Arbeit. Hier finden Sie eine Auswahl unserer erfolgreich abgeschlossenen Projekte.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-filters animate">
+          <button class="filter-btn filter-btn--active" data-filter="all">Alle</button>
+          <button class="filter-btn" data-filter="projekte">Projekte</button>
+          <button class="filter-btn" data-filter="vorher-nachher">Vorher/Nachher</button>
+          <button class="filter-btn" data-filter="gewerbe">Gewerbe</button>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item animate" data-category="projekte">
+            <img src="bilder/galerie/projekt_1_wohnhaus_musterstadt.png" alt="Projekt 1 - Wohnhaus Musterstadt">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Wohnhaus Musterstadt</div>
+                <div class="gallery-item__category">Projekte</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-1" data-category="vorher-nachher">
+            <img src="bilder/galerie/vorher_1_buero_renovierung.png" alt="Renovierung Bürogebäude - Vorher">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Bürorenovierung - Vorher</div>
+                <div class="gallery-item__category">Vorher/Nachher</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-2" data-category="vorher-nachher">
+            <img src="bilder/galerie/nachher_1_buero_renovierung.png" alt="Renovierung Bürogebäude - Nachher">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Bürorenovierung - Nachher</div>
+                <div class="gallery-item__category">Vorher/Nachher</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-3" data-category="gewerbe">
+            <img src="bilder/galerie/gewerbe_1_industriehalle.png" alt="Gewerbeprojekt Industriehalle">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Industriehalle</div>
+                <div class="gallery-item__category">Gewerbe</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate" data-category="projekte">
+            <img src="bilder/galerie/projekt_2_einfamilienhaus.png" alt="Projekt 2 - Einfamilienhaus">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Einfamilienhaus</div>
+                <div class="gallery-item__category">Projekte</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-1" data-category="projekte">
+            <img src="bilder/galerie/projekt_3_mehrfamilienhaus.png" alt="Projekt 3 - Mehrfamilienhaus">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Mehrfamilienhaus</div>
+                <div class="gallery-item__category">Projekte</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-2" data-category="gewerbe">
+            <img src="bilder/galerie/gewerbe_2_lagerhalle.png" alt="Gewerbeprojekt Lagerhalle">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Lagerhalle</div>
+                <div class="gallery-item__category">Gewerbe</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-3" data-category="vorher-nachher">
+            <img src="bilder/galerie/vorher_1_buero_renovierung.png+2" alt="Sanierung Altbau - Vorher">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Altbausanierung - Vorher</div>
+                <div class="gallery-item__category">Vorher/Nachher</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate" data-category="vorher-nachher">
+            <img src="bilder/galerie/nachher_1_buero_renovierung.png+2" alt="Sanierung Altbau - Nachher">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Altbausanierung - Nachher</div>
+                <div class="gallery-item__category">Vorher/Nachher</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-1" data-category="projekte">
+            <img src="bilder/galerie/projekt_4_dachsanierung.png" alt="Projekt 4 - Dachsanierung">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Dachsanierung</div>
+                <div class="gallery-item__category">Projekte</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-2" data-category="gewerbe">
+            <img src="bilder/galerie/gewerbe_3_buerokomplex.png" alt="Gewerbeprojekt Bürokomplex">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Bürokomplex</div>
+                <div class="gallery-item__category">Gewerbe</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item animate animate--delay-3" data-category="projekte">
+            <img src="bilder/galerie/projekt_5_terrassengestaltung.png" alt="Projekt 5 - Terrassengestaltung">
+            <div class="gallery-item__overlay">
+              <div>
+                <div class="gallery-item__title">Terrassengestaltung</div>
+                <div class="gallery-item__category">Projekte</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title animate">Kundenstimmen zu unseren Projekten</h2>
+        </div>
+        <div class="grid grid--2">
+          <div class="testimonial animate">
+            <p class="testimonial__quote">
+              Das Projekt wurde pünktlich und im Budget abgeschlossen. Die Kommunikation war transparent und das Ergebnis übertrifft unsere Erwartungen.
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">PH</div>
+              <div>
+                <div class="testimonial__name">Peter H.</div>
+                <div class="testimonial__company">Hauseigentümer</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial animate animate--delay-1">
+            <p class="testimonial__quote">
+              Besonders beeindruckt hat uns die saubere Arbeitsweise. Man merkt, dass hier echte Profis am Werk sind. Gerne wieder!
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">SK</div>
+              <div>
+                <div class="testimonial__name">Sandra K.</div>
+                <div class="testimonial__company">Geschäftsführerin, XYZ GmbH</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark">
+      <div class="container">
+        <div class="cta">
+          <h2 class="cta__title animate">Ihr Projekt könnte das nächste sein</h2>
+          <p class="cta__text animate animate--delay-1">
+            Lassen Sie uns gemeinsam Ihr Vorhaben verwirklichen. Kontaktieren Sie uns für eine kostenlose Beratung.
+          </p>
+          <div class="cta__buttons animate animate--delay-2">
+            <a href="kontakt.html" class="btn btn--white btn--lg">Projekt anfragen</a>
+            <a href="leistungen.html" class="btn btn--secondary btn--lg" style="border-color: white; color: white;">Leistungen ansehen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <span class="logo__icon">M</span>
+            <span>Musterbetrieb</span>
+          </a>
+          <p class="footer__description">Ihr zuverlässiger Partner für professionelle Dienstleistungen in der Region.</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Navigation</h3>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Start</a></li>
+            <li><a href="leistungen.html" class="footer__link">Leistungen</a></li>
+            <li><a href="ueber-uns.html" class="footer__link">Über uns</a></li>
+            <li><a href="galerie.html" class="footer__link">Galerie</a></li>
+            <li><a href="kontakt.html" class="footer__link">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Leistungen</h3>
+          <ul class="footer__links">
+            <li><a href="leistungen.html#beratung" class="footer__link">Beratung & Planung</a></li>
+            <li><a href="leistungen.html#umsetzung" class="footer__link">Umsetzung</a></li>
+            <li><a href="leistungen.html#service" class="footer__link">Service & Wartung</a></li>
+            <li><a href="leistungen.html#notdienst" class="footer__link">Notdienst</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Kontakt</h3>
+          <div class="footer__contact-item"><span>📍</span><span>Musterstraße 123<br>12345 Musterstadt</span></div>
+          <div class="footer__contact-item"><span>📞</span><a href="tel:+4912345678900">+49 123 456 789 00</a></div>
+          <div class="footer__contact-item"><span>✉️</span><a href="mailto:info@musterbetrieb.de">info@musterbetrieb.de</a></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 Musterbetrieb. Alle Rechte vorbehalten.</p>
+        <div class="footer__legal">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>
